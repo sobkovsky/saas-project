@@ -27,3 +27,6 @@ Temporary Items
 
 # folders 
 /assets
+
+# Code
+.vscode/
