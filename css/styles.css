@@ -49,16 +49,68 @@
 }
 
 .logo-icons {
-  width: 400px;
-  height: 500px;border: 1px solid black;
+  width: 800px;
+  height: 800px;
+  border: 1px solid black;
+  margin-top: 100px;
 }
 
 .logo-icons ul li {
   list-style: none;
 }
 
+.logo-icons .first-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 160px;
+  margin-left: 65px;
+}
+
+
+.logo-icons .second-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+
+
+.logo-icons .third-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+
+
 .logo-icons img {
-  width: 50px;
+  width: 115px;
+  background: transparent; 
+  padding: 15px;
+}
+
+
+.logo-icons .atlasian img,
+.logo-icons .asana img, 
+.logo-icons .paypal img,
+.logo-icons .weave img { 
+  width: 140px;
+}
+
+.logo-icons .atlasian { margin-right: 140px; }
+
+.logo-icons .weave { margin-right: 180px; }
+
+
+.logo-icons .asana,
+.logo-icons .atlasian,
+.logo-icons .paypal,
+.logo-icons .weave {
+  background-color: white;
+  width: 170px;
+  background: white; 
+  padding: 15px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  box-shadow: 0px 4px 39px 1px rgba(171, 171, 173, 1);
 }
 
 .header {
