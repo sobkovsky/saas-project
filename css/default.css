@@ -19,21 +19,29 @@ body {
 
 .container {
   width: 100%;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 60px;
+  padding-right: 60px;
   margin-left: auto;
   margin-right: auto;
 }
 
  button {
+  display: flex;
+  align-items: center;
   border-radius: 70px;
   font-size: 23px;
   color: white;
   background-color: #1e73ff;
-  padding: 0px 40px;
+  padding: 0px 43px;
   border: 1px solid transparent;
   margin-right: 5px;
   height: 87px;
+  margin-bottom: 18px;
+}
+
+button i {
+  font-size: 33px;
+  padding-right: 15px;
 }
 
 .container.header div button {
@@ -43,11 +51,8 @@ body {
   
 }
 
-.container.header i {
-  font-size: 32px;
-}
-
 .container.header span {
   font-size: 22px;
   margin: auto;
 }
+
