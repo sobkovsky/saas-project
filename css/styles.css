@@ -532,7 +532,7 @@
   letter-spacing: 0.9px;
 }
 
-.hire-form {
+.hire-form-header {
   background-color: white;
   border-radius: 20px;
   height: 100%;
@@ -542,5 +542,159 @@
   width: 933px;
 }
 
+.small-inputs ul {
+  display: grid;
+  list-style: none;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  row-gap: 30px;
+  column-gap: 30px;
+  padding: 0%;
+}
+
+.small-inputs li {
+  width: 100%;
+}
+
+
+.small-inputs li i {
+  font-size: 24px;
+  
+  
+}
+
+.small-inputs input,
+.small-inputs select,
+.big-input textarea {
+  width: 100%;
+  font-size: 28px;
+  border: 3px solid #ababab2b;
+  padding: 28px 15px;
+  border-radius: 10px;
+  color: #a7a1a1;
+}
+
+.small-inputs select {
+  color: #5a5858;
+}
+
+.big-input textarea {
+  resize: none;
+  margin-top: 20px;
+  font-size: 28px;
+  letter-spacing: 1.2px;
+  font-family: 'Roboto', sans-serif;
+  color: #a7a1a1;
+}
+
+/* Test */
+
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 100px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  margin-top: 50px;
+  color: #a7a1a1;
+  font-size: 29px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input ~ .checkmark {
+  background-color: rgb(255, 176, 176);
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+  left: 20px;
+  top: 11px;
+  width: 11px;
+  height: 24px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.privacy-policy {
+  display: flex;
+  justify-content: start;
+  gap: 60px;
+  padding-left: 100px;
+}
+
+.privacy-policy .p-one,
+.privacy-policy .p-two {
+  color: #a7a1a1;
+  font-size: 30px;
+  font-weight: 500;
+  background-image: linear-gradient(to right, #a7a1a1 20%, rgba(255,255,255,0) 0%);
+  background-position: bottom;
+  background-size: 27px 2px;
+  background-repeat: repeat-x;
+  padding: 0px 10px;
+}
+
+
+.privacy-policy .p-two {
+  color: #1e73ff;
+  background-image: linear-gradient(to right, #1e73ff 20%, rgba(255,255,255,0) 0%);
+}
+
+
+
+
+
+
+
+
+
+
+    
 
 

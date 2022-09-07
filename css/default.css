@@ -11,6 +11,10 @@ body {
   list-style: none;
 }
 
+::placeholder {
+  color: rgb(179, 178, 178);
+}
+
 *,
 ::after,
 ::before {
