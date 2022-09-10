@@ -60,3 +60,11 @@ button i {
   margin: auto;
 }
 
+.button {
+  margin-top: 30;
+  display: flex;
+  justify-content: center;
+}
+
+
+
