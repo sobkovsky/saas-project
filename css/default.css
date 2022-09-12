@@ -22,9 +22,9 @@ body {
 }
 
 .container {
-  width: 100%;
-  padding-left: 60px;
-  padding-right: 60px;
+  width: 1400px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -33,14 +33,14 @@ body {
   display: flex;
   align-items: center;
   border-radius: 70px;
-  font-size: 23px;
+  font-size: 18px;
+  font-weight: 600;
   color: white;
   background-color: #1e73ff;
-  padding: 0px 43px;
+  padding: 0px 35px;
   border: 1px solid transparent;
   margin-right: 5px;
-  height: 87px;
-  margin-bottom: 18px;
+  height: 70px;
 }
 
 button i {
