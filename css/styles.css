@@ -44,7 +44,7 @@
 }
 
 .header-title {
-  padding: 150px 0;
+  padding-top: 150px;
   display: flex;
 }
 
@@ -228,7 +228,11 @@
   margin-bottom: 120px; 
 }
 
-.section-title h2 { font-size: 40px;}
+.section-title h2 { 
+  font-size: 40px;
+  margin-top: -30px;
+}
+
 .section-title p { 
   font-size: 25px;
   margin-top: -30px;
@@ -318,7 +322,7 @@
 
 .main-section {
   padding: 10px 100px;
-  margin-top: 100px;
+  margin-top: 130px;
 }
 
 .circles {
@@ -455,22 +459,23 @@
 
 .pricing-features {
   display: flex;
-  margin: 30px 30px;
+  margin: 30px 0px;
   margin-bottom: 200px;
 }
 
 .right-big-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 30px 50px;
+  padding: 30px 0px;
+  margin-left: 70px;
 }
 
 .left-big-wrapper {
-  width: 1800px;
+  width: 1200px;
   height: 650px;
   padding: 47px 38px;
   border: 1px solid transparent;
-  box-shadow: 0px 4px 39px 1px rgba(200, 171, 173, 1);
+  box-shadow: 0px 30px 39px 1px rgb(196 196 196);
 }
 
 .left-big-wrapper h2 {
@@ -503,39 +508,43 @@
 }
 
 .right-small-wrapper {
-  padding: 0px 50px;
+  padding: 0px 0px;
 }
 
 .right-small-wrapper img {
-  width: 100px;
+  width: 80px;
 }
 
 .right-small-wrapper h3 {
-  font-size: 40px;
+  font-size: 25;
   font-weight: 500;
   margin-bottom: -5px;
 }
 
 .right-small-wrapper p {
-  font-size: 26px;
-  padding-right: 70px;
+  font-size: 20px;
+  padding-right: 0px;
   color: gray;
   font-weight: 400;
+  margin-right: 80px;
 }
 
 .right-big-wrapper span {
   border-radius: 70px;
-  font-size: 27px;
-  color: white;
-  background-color: #12c1aa;
-  padding: 6px 19px;
-  border: 1px solid transparent;
-  margin-bottom: 18px;
-  margin-left: 12px;
+    font-size: 19px;
+    color: white;
+    background-color: #12c1aa;
+    padding: 4px 14px;
+    border: 1px solid transparent;
+    margin-bottom: 18px;
+    margin-left: 12px;
+}
+
+.hire-us {
+  display: flex;
 }
 
 .hire-us-wrapper {
-  display: flex;
   justify-content: center;
   background-color: #1f335b;
   width: 100%;
@@ -544,7 +553,7 @@
 
 .hire-left-wrapper {
   margin-right: auto;
-  padding: 197px 125px;
+  padding: 197px 30px;
 }
 
 .hire-header {
@@ -552,7 +561,7 @@
 }
 
 .hire-header h2 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 500;
   color: white;
   padding-right: 0;
@@ -561,26 +570,31 @@
 }
 
 .hire-header p {
-  font-size: 35px;
+  font-size: 25px;
   color: rgba(255, 255, 255, 0.3);
-  margin-bottom: 60px;
+  margin: 40px 100px 30px 0px;
+}
+
+hr {
+  margin-right: 100px;
 }
 
 .hire-content h5,
 .hire-content span {
-  font-size: 35px;
   color: white;
+  font-size: 25px;
   font-weight: 400;
-  width: 729px;
+  width: 490px;
 }
 
 .hire-content span h3 {
-  font-size: 36px;
+  font-size: 25px;
+  margin-top: 70px;
   margin-bottom: 0;
 }
 
 .hire-content p {
-  font-size: 36px;
+  font-size: 19px;
   margin-top: 0px; 
   color: rgba(255, 255, 255, 0.3);
 }
@@ -589,44 +603,40 @@
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 50px;
+  gap: 40px;
   padding-left: 0;
-  padding-top: 80px;
+  padding-top: 45px;
 }
 
 .hire-content .photos img {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.hire-content .photos img:last-child {
   border-radius: 100%;
   width: 80px;
   height: 80px;
 }
 
-.hire-content .photos img:last-child {
-  border-radius: 100%;
-  width: 120px;
-  height: 120px;
-}
-
 .hire-right-wrapper {
-  margin-right: auto;
-  padding: 30px 0px;
+  padding: 20px 0px;
 }
 
 .hire-right-wrapper h2 {
-  padding: 57px 0px;
   font-weight: 600;
-  font-size: 33px;
+  font-size: 25px;
   color: rgb(0, 0, 0, 0.9);
-  letter-spacing: 0.9px;
+  margin-top: 0;
 }
 
 .hire-form-header {
   background-color: white;
   border-radius: 20px;
   height: 95%;
-  padding: 57px;
-  padding-top: 0px;
-  margin-right: -180px;
-  width: 933px;
+  padding: 40px;
+  width: 650px
 }
 
 .small-inputs ul {
@@ -654,11 +664,11 @@
 .small-inputs select,
 .big-input textarea {
   width: 100%;
-  font-size: 28px;
-  border: 3px solid #ababab2b;
-  padding: 28px 15px;
-  border-radius: 10px;
-  color: #a7a1a1;
+    font-size: 20px;
+    border: 3px solid #ababab2b;
+    padding: 20px 15px;
+    border-radius: 10px;
+    color: #a7a1a1;
 }
 
 .small-inputs select {
