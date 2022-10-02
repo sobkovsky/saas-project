@@ -14,30 +14,44 @@
 
 </head>
 <body>
-  <div class="navbar">
-    <div class="container nav">
+  <div id="pageTop"></div>
+    <div class="navbar-wrapper container">
+      <nav id="topNav" class="navbar container">
         <img src="./assets/project_logo/logo.svg" alt="">
-      <ul>
-      <li>Home</li>
-      <li>Features</li>
-      <li>Learn</li>
-      <li>Pricing</li>
-      <li>Hire us</li>
-      </ul>
-        <button>Buy Now</button> 
+          <div class="nav">
+           <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
+              <span>&#9776;</span>
+          </button>
+          <div class="menu">
+            <ul >
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Learn</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Hire us</a></li>
+            </ul>
+          <a href="#"><span class="buy-button">Buy Now</span></a>
+          </div>
+        </div>
+      </nav>
     </div>
-  </div>
-<header class="background-header"></header>
+    
+    
+<header class="background-header"></header>   
  <section class="container">
   <div class="header-title">
     <div class="header">
       <div>
-        <h1>Empowering <br>  teams with the <br> freedom</h1>
+        <h1>Empowering teams with the freedom</h1>
         <p>Own the unlimited power of the web development</p>
       </div>
       <div>
-        <button><i class="fa-solid fa-circle-play"></i> <span>Play Video</span></button>
-        <a href="#">Learn more</a>
+        <a href="#">
+          <span class="play-button">
+            <i class="fa-solid fa-circle-play"></i>
+            <h5>Play Video</h5></a>
+            <a href="#">Learn more</a>
+          </span>
       </div>
     </div>
     <div class="logo-icons">
@@ -57,11 +71,13 @@
       </div>
     </div>
 </section>
-<div class="section-title">
-  <h2>Key Benefits</h2>
-  <p>Design faster with a growing array of beautiful templates</p>
+<div class="container">
+  <div class="section-title">
+    <h2>Key Benefits</h2>
+    <p>Design faster with a growing array of beautiful templates</p>
+  </div>
+    
 </div>
-  
 <div class="container"> 
   <!-- Key Benefits Section -->
     <section>
@@ -96,10 +112,17 @@
       <div class="banner-wrapper">
         <div class="software-wrapper-left">
           <h1>Front makes you look at things from a different prospectives</h1>
-          <button><i class="fa-solid fa-circle-play"></i> <span>Play Video</span></button>
+          <div class="button-wrapper-1">
+            <span class="play-button">
+              <i class="fa-solid fa-circle-play"></i>
+              <h5>Play Video</h5>
+            </span>
+          </div>
         </div> 
         <div class="software-wrapper-right">
-          <img src="./assets/banners/banner_one.jpg" alt="banner-software-for-people">
+          <div class="img">
+            <!-- <img src="./assets/banners/banner_one.jpg" alt="banner-software-for-people"> -->
+          </div>
         </div>
       </div>
     </section>
@@ -110,33 +133,42 @@
         <h2>Why front?</h2>
         <p>Front is a incredibly beautiful, fully responsive, and mobile-first projects on <br> the web - it is the starting point for the creative sites</p>
       </div>
-      <div class="circles">
-        <div class="circle"><i class="fa-solid fa-circle"></i></div>
-        <div class="line"></div>
-        <div class="circle"><i class="fa-solid fa-circle"></i></div>
-        <div class="line"></div>
-        <div class="circle"><i class="fa-solid fa-circle"></i></div>
-        <div class="line"></div>
-        <div class="circle"><i class="fa-solid fa-circle"></i></div>
-      </div>
-      <div class="under-circles-words">
-         <div>Basic elements</div>
-        <div>Components</div>
-        <div>Combined components</div>
-        <div>Page layouts</div>
+      <div class="options">
+        <div class="circles">
+          <div class="circle"><i class="fa-solid fa-circle"></i></div>
+          <div class="line"></div>
+          <div class="circle"><i class="fa-solid fa-circle"></i></div>
+          <div class="line"></div>
+          <div class="circle"><i class="fa-solid fa-circle"></i></div>
+          <div class="line"></div>
+          <div class="circle"><i class="fa-solid fa-circle"></i></div>
+        </div>
+        <div class="under-circles-words">
+           <div>Basic elements</div>
+          <div>Components</div>
+          <div>Combined components</div>
+          <div>Page layouts</div>
+        </div>
       </div>
     </section>
-      <div class="banner-two">
-        <button><i class="fa-solid fa-play"></i></button>
-      </div>
+  </div>
 
+  <div class="banner-two-wrapper">
+    <div class="banner-two">
+      <button><i class="fa-solid fa-play"></i></button>
+    </div>
+  </div>
+     
   <!-- Christina Kray Section -->
+  <div class="container"> 
       <section class="christina-section">
-        <div class="dotts">
-          <img src="./assets/abstract/dots.svg" alt="dotts">
-        </div>
-        <div class="profile-picture">
-          <img src="./assets/people/woman_three.jpg" alt="christina_kray">
+        <div class="dotts-picture">
+          <div class="dotts">
+            <img src="./assets/abstract/dots.svg" alt="dotts">
+          </div>
+          <div class="profile-picture">
+            <img src="./assets/people/woman_three.jpg" alt="christina_kray">
+          </div>
         </div>
         <div class="description">
          <img src="./assets/company_logos/hubspot.svg" alt="hubspot">
@@ -182,8 +214,13 @@
           <h2>59 <span>/ mo</span></h2>
           <hr>
           <p>Start your Front business now. 100% guranteed money back. No questions asked.</p>
-          <div>
-            <button><i class="fa-solid fa-circle-play"></i> <span>Play Video</span></button>
+          <div class="button-wrapper-2">
+            <div class="button">
+              <span class="play-button">
+                <i class="fa-solid fa-circle-play"></i>
+                <h5>Play Video</h5>
+              </span>
+            </div>
             <span class="under-button">No credit card required.</span>
           </div>
         </div>
@@ -218,16 +255,15 @@
 </div>
 
   <section class="hire-us-wrapper">
-
     <div class="container hire-us">
       <div class="hire-left-wrapper">
         <div class="hire-header">
           <h2>Hire us</h2>
           <p>Whatever your goal - we will get you there</p>
           <hr>
+          <h5><i>"I love front! I love the ease of use, I love the fact that I have total creative freedom..."</i></h5>
         </div>
         <div class="hire-content">
-          <h5><i>"I love front! I love the ease of use, I love the fact, I have total creative freedom..."</i></h5>
           <span>
             <h3>Charlotte Moore</h3>
             <p>Head of Commercials, Slack</p>
@@ -272,7 +308,7 @@
               <textarea placeholder="Tell us more about your project, needs and timeline, please..." name="" id="" cols="30" rows="7"></textarea>
             </div>
             <div class="declaration">
-              <label class="checkbox-container">Yes, I'd like to receive occasional marketing emails from Front. I have the right to opt out at any time
+              <label class="checkbox-container">Yes, I'd like to receive occasional marketing emails from Front. I have the right to opt out at any time.
                 <input type="checkbox">
                 <span class="checkmark"></span>
             </div>
@@ -351,34 +387,60 @@
     <div class="footer-bottom-wrapper">
       <div class="footer-bottom-header">
         <div class="header-left">
-          <p>Privacy & Policy  >  <span>Terms</span>  >  Site Map</p>
-        </div>
-        <div class="header-right">
           <ul>
-            <li><i class="fa-brands fa-facebook-f"></i></li>
-            <li><i class="fa-brands fa-google"></i></li>
-            <li><i class="fa-brands fa-twitter"></i></li>
-            <li><i class="fa-brands fa-github"></i></li>
-            <li> 
-              <div class="box">
-                <select name="country" id="country">
-                  <option value="United States">United States</option>
-                  <option value="Germany">Germany</option>
-                  <option value="United Kingdom">United Kingdom</option>
-                </select>
-            </div>
-            </li>
+            <li>Privacy & Policy</li>
+            <li>></li>
+            <li>Terms</li>
+            <li>></li>
+            <li>Site Map</li>
           </ul>
         </div>
+        <div class="header-right">
+          <div class="socials">
+            <ul>
+              <li><i class="fa-brands fa-facebook-f"></i></li>
+              <li><i class="fa-brands fa-google"></i></li>
+              <li><i class="fa-brands fa-twitter"></i></li>
+              <li><i class="fa-brands fa-github"></i></li>
+            </ul>
+          </div>
+          <div class="box">
+            <select name="country" id="country">
+              <option value="United States">United States</option>
+              <option value="Germany">Germany</option>
+              <option value="United Kingdom">United Kingdom</option>
+            </select>
+          </div>
+        </div>
       </div>
+     </div>
       <div class="header-bottom-content">
         <h3> <span>&#169;</span> Front. 2022 Responsive designs. All rights reserved.</h3>
-        <p>When you visitor interact with our sites, services or tools, we or our authorised service providers may use cookies for storing information to help provide you with a better, faster and saferexperienc and for marketing purposes. </p>
+        <p>When you visitor interact with our sites, services or tools, we or our authorised service providers may use cookies for storing information to help provide you with a better, faster and safer experience and for marketing purposes. </p>
       </div>
     </div>
   </section>
-  
 </div>
+
+
+<script>
+  const nav = document.getElementById("topNav");
+  window.onscroll = function () {
+    if (window.pageYOffset > 50) {
+      nav.classList.add("sticky");
+    } else {
+      nav.classList.remove("sticky");
+    }
+  }
+  const navButton = document.querySelector('button[aria-expanded');
+
+function toggleNav({ target }) {
+  const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+  navButton.setAttribute('aria-expanded', !expanded);
+}
+
+navButton.addEventListener('click', toggleNav);
+</script>
 
 </body>
 </html>

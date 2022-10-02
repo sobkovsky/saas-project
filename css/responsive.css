@@ -1,0 +1,1107 @@
+/* Desktop */
+@media screen and (max-width: 1400px){
+  .background-header {
+    width: 1400px;
+  }
+
+  .hire-us-wrapper {
+    min-width: 1400px;
+  }
+
+  .banner-two-wrapper {
+    display: flex;
+    width: 1400px;
+    justify-content: center;
+  }
+  
+  .banner-two {
+    width: 1350px;;
+  }
+
+}
+
+
+/* iPad / Tablet view */
+@media screen and (max-width: 1023px) {
+  .container {
+    width: 1023px;
+    padding: 0 30px;
+  }
+
+  .container.nav {
+    padding: 0;
+    display: flex;
+    }
+
+  /* Header Section */ 
+  .header {
+    padding-top: 0;
+  }
+
+  .header-title {
+    padding-top: 130px;
+  }
+
+  .header h1 {
+    font-size: 53px;
+    font-weight: 400;
+    line-height: 55px;
+    margin-bottom: 10px;
+    padding: 0 300px;
+    margin-right: 0;
+  }
+
+  .background-header {
+    width: 1023px;
+    left: 0;
+    background: linear-gradient(104deg, transparent 15%, #f5f5f5 75%, rgba(184, 213, 222, 0.65) 25%);
+  }
+
+  .navbar {
+    width: 1023px;
+    transition: ease-in-out 0.6s;
+    height: 100px;
+    padding: 0;
+  }
+
+
+
+  .nav {
+    display: flex;
+    padding: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+
+
+  .menu {
+    width: 100%;
+    height: 2000px;
+  }
+
+  .navbar img {
+      width: 220px;
+      margin-right: auto;
+      position: absolute;
+      top: 20;
+      left: 30;
+  }
+
+  .nav button span {
+    position: absolute;
+    top: 12px;
+    right: 0;
+  }
+
+  button:hover {
+    box-shadow: none;
+    color: gray;
+    scale: none;
+    background: transparent;
+    width: 30px;
+    height: 40px;
+  }
+
+  .buy-button {
+    display: none;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    border-radius: 70px;
+    font-size: 16px;
+    font-weight: 100;
+    color: white;
+    background-color: #1e73ff;
+    padding: 0px 30px;
+    border: 1px solid transparent;
+    height: 60px;
+  }
+
+  .header p {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight: 300;
+  }
+
+  .logo-icons {
+    padding: 0px 140px;
+    margin-top: 100px;
+    height: 630px;
+  }
+
+  .logo-icons img {
+    width: 75px;
+  }
+
+  .logo-icons .atlasian img, .logo-icons .asana img, .logo-icons .paypal img, .logo-icons .weave img, .logo-icons .calendar img {
+    width: 80px;
+  }
+
+  .logo-icons .google, .logo-icons .google-A {
+    width: 77px;
+    height: 77px;
+    padding: 0px;
+  }
+
+  .logo-icons .asana, .logo-icons .atlasian, .logo-icons .paypal, .logo-icons .weave, .logo-icons .calendar {
+    width: 103px;
+    height: 103px;
+    padding: 11px;
+  }
+  
+  .logo-icons .first-row {
+    margin-bottom: 0;
+  }
+
+  [aria-controls="navbarDropdown"] {
+    display: block;
+    position: absolute;
+    top: 21px;
+    right: 59px;
+    padding: 0;
+    background: 0;
+    color: gray;
+    font-size: 34px;
+  }
+
+  [aria-expanded="false"] ~ .menu ul {
+    display: none;
+  }
+
+  [aria-expanded="false"] ~ .menu a span{
+    display: none;
+  }
+
+  [aria-expanded="true"] ~ .menu {
+    background-color: white;
+    width: 100%;
+  }
+
+  [aria-expanded="true"] ~ .menu a span {
+    display: block;
+    position: absolute;
+    top: 350px;
+    right: 42%;
+    display: grid;
+    width: 175px;
+  }
+
+  [aria-expanded="true"] ~ .menu ul {
+    display: flex;
+    top: 3px;
+    font-size: 26px;
+    width: 100%;
+    height: 180px;
+    margin-right: 0;
+    justify-content: center;
+    right: 0px;
+    margin-top: 100px;
+    border-top: 2px solid rgb(235 235 235);
+  }
+
+  [aria-expanded="true"] ~ .menu ul li {
+    margin-top: 80px;
+    width: 102px;
+    text-align: center;
+  }
+
+  [aria-expanded="true"] ~ .menu ul li a {
+    color: #666;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .header div:nth-child(2) {
+    justify-content: center;
+  }
+
+  .header-title {
+    display: block;
+  }
+  
+  .logo-icons {
+    margin-left: 0;
+  }
+
+  /* Key Benefits Section */
+  .container .key-benefits-tables {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 30px;
+  }
+
+  .key-benefits-tables .table p {
+    font-size: 20px;
+  }
+
+
+  .key-benefits-tables .table h2 span, .right-big-wrapper span {
+    position: relative;
+    top: -1px;
+  }
+
+  .section-title {
+    margin-top: 100px;
+  }
+
+  .section-title p {
+    margin-bottom: -20px;
+  }
+
+  .banner-wrapper {
+    display: block;
+  }
+
+  .banner-wrapper .software-wrapper-left {
+    padding-left: 0;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .banner-wrapper .software-wrapper-left h1 {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+    margin-right: 0;
+    padding-top: 45px;
+  }
+
+  .banner-wrapper .software-wrapper-right .img{
+    background-image: url(../assets/banners/banner_one.jpg);
+    width: 100%;
+    height: 487px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0% 37%;
+  }
+
+  .button-wrapper-1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* Why Front Section */
+  .section-title h2 {
+    font-size: 40px;
+    margin-top: 50px;
+  }
+
+  .section-title p {
+    font-size: 20px;
+    margin-top: -30px;
+    color: gray;
+  }
+
+  .main-section {
+    padding: 0px 60px;
+  }
+
+
+
+  .circles {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 27px;
+  }
+  
+  .under-circles-words {
+    font-size: 18px;
+  }
+
+  .under-circles-words div:nth-child(2) {
+    margin-left: 10px;
+    margin-right: -20px;
+  }
+
+  .banner-two {
+    margin: 0px 0px 100px;
+    width: 1023px;
+    height: 400px;
+    background-image: url(../assets/banners/banner_two.jpg);
+    background-repeat: no-repeat;
+    background-position: -11px 0px;
+    background-size: 102%;
+  }
+
+  .banner-two button {
+    position: relative;
+    left: 46%;
+    top: 40%;
+    width: 90px;
+    height: 90px;
+    font-size: 24px;
+  }
+
+  .banner-two-wrapper {
+    display: flex;
+    width: 1023px;
+    justify-content: center;
+  }
+
+
+
+  .banner-two button i {
+    font-size: 25px;
+    left: 6px;
+  }
+
+  /* Christina Section */
+  .christina-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: 100%;
+    height: 1400px;
+    padding: 0px;
+  }
+
+  .description {
+    text-align: center;
+    padding: 0;
+  }
+
+  .dotts-picture {
+    height: 500px;
+  }
+
+  .description h2 {
+    margin: 60px;
+  }
+
+  .description h3 {
+    font-size: 25px;
+  }
+
+  .description p {
+    font-size: 19px;
+  }
+
+  .trusted h2 {
+    margin-top: -200px;
+  }
+
+  /* Pricing Section */
+
+  .main-section {
+    margin-top: 150px;
+  }
+
+  .pricing-features {
+    display: block;
+    margin: 30px;
+    margin-bottom: 80px;
+  }
+
+  .left-big-wrapper {
+    text-align: center;
+    width: auto;
+  }
+
+  .pricing-features.button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .right-big-wrapper {
+    margin-left: 0;
+    margin-top: 20px;
+    padding: 40px 30px;
+    gap: 50px 60px;
+  }
+
+  .button-wrapper-2 {
+    display: grid;
+    justify-content: center;
+  }
+
+  .right-small-wrapper p {
+    margin-right: 0px;
+  }
+
+  /* Form section */
+  .hire-us {
+    display: block;
+    background-color: #1f335b;
+    height: 1330px;
+  }
+
+  .hire-us-wrapper {
+    background-color: white;
+    min-width: 1023px;
+    }
+  
+
+  .hire-header {
+    width: 480px;
+  }
+
+  .hire-header h2 {
+    font-size: 30;
+  }
+
+  .hire-header p{
+    margin: 40px 0px 30px 0px;
+    font-size: 20px;
+  }
+
+  hr {
+    margin-right: 0;
+  }
+
+
+  .hire-content .photos {
+  padding-top: 10px;
+  }
+
+  .hire-content span h3 {
+    font-size: 25px;
+    margin-top: 50px;
+  }
+
+  .hire-left-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    padding: 10px 30px;
+  }
+
+  .hire-us-wrapper {
+    height: auto;
+    background-color: white;
+    min-width: 763px;
+      
+  }
+
+
+  .hire-form-header {
+    width: 100%;
+    height: 950px;
+    padding: 60px;
+  }
+
+  /* Footer section */
+
+  .footer-top-wrapper {
+    display: flex;
+    height: 800px;
+    padding-bottom: 45px;
+  }
+
+  .footer-top-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 40px;
+  }
+
+  .footer-bottom-header {
+    display: flex;
+  }
+
+  .footer-bottom-header .header-left ul {
+    justify-content: center;
+  }
+
+  .header-bottom-content {  
+    padding: 0px 30px;
+  }
+}
+
+
+  @media screen and (max-width: 767px){
+    .container {
+      width: 767px;
+    }
+
+    .container.nav {
+      padding-right: 0px;
+      padding: 0px 50px 25px 50px;
+      display: flex;
+      width: 767px;
+      }
+    
+    .navbar {
+      width: 767px;
+      transition: ease-in-out 0.6s;
+      height: 200px;
+      }
+  
+    .navbar img {
+      width: 180px;
+      margin-right: 0;
+      margin-right: 0;
+      width: 380px;
+      padding: 30px 0;
+    }
+
+    .nav button span {
+      width: 53px;
+    }
+
+    button:hover {
+      width: 55px;
+      height: 100px;
+    }
+
+    [aria-expanded="true"] ~ .menu {
+      width: 100%;
+      height: 2000px;
+    }
+
+    [aria-expanded="true"] ~ .menu ul {
+      margin-top: 190px;
+      display: grid;
+      gap: 50px;
+    }
+
+    [aria-expanded="true"] ~ .menu ul li {
+      margin-top: 0;
+    }
+
+    [aria-expanded="true"] ~ .menu ul li:first-child {
+      margin-top: 80px;
+    }
+
+    [aria-expanded="true"] ~ .menu a span{
+      top: 720px;
+      right: 275px;
+      width: 223px;
+    }
+
+    .background-header {
+      width: 767px;
+      transform: skewY(-18deg);
+      background: linear-gradient(99deg, transparent 15%, #f5f5f5 73%, rgba(184, 213, 222, 0.65) 27%);
+      height: 1100px;
+    }
+
+    .header h1 {
+      padding: 0;
+      padding: 0 30px;
+      font-size: 60;
+      line-height: 70px;
+      margin-right: 0;
+    }
+
+    .header-title {
+      padding-top: 230px;
+    }
+
+    .header p {
+      padding: 10px 20px 55px 20px;
+      font-size: 30px;
+      color: gray;
+      margin: 10px;
+      line-height: 40px;
+    }
+
+    button {
+      font-size: 25px;
+      font-weight: 100;
+      padding: 0px 60px;
+      height: 100px;
+    }
+
+    button, .buy-button, .play-button {
+      font-size: 30px;
+      padding: 0px 51px;
+      height: 90px;
+    }
+
+    .play-button i {
+      font-size: 35px;
+      padding-right: 10px;
+    }
+
+    .header div:nth-child(2) a {
+      text-decoration: none;
+      font-size: 30px;
+      gap: 40px;
+    }
+    
+    .trusted .brands img {
+      width: 140px;
+    }
+
+    /* Logo Icons Section */
+
+    .logo-icons .first-row {
+      margin-bottom: 0;
+      margin-top: 150px;
+      margin-left: 0px;
+    }
+
+    .logo-icons {
+      padding: 0;
+    }
+
+    .logo-icons img {
+      width: 100px;
+    }
+
+    .logo-icons .google, 
+    .logo-icons .google-A {
+      width: 125px;
+      height: 125px;
+      padding: 10px;
+    }
+    
+    .logo-icons .atlasian img, 
+    .logo-icons .asana img, 
+    .logo-icons .paypal img, 
+    .logo-icons .weave img, 
+    .logo-icons .calendar img {
+      width: 120px;
+    } 
+
+    .logo-icons .asana, .logo-icons .atlasian, .logo-icons .paypal, .logo-icons .weave, .logo-icons .calendar {
+      width: 160px;
+      height: 160px;
+      padding: 18px;
+    }
+
+    .logo-icons .calendar {
+      margin-top: -40px;
+      margin-right: 30px;
+  }
+
+    [aria-controls="navbarDropdown"] {
+      font-size: 60px;
+      right: 95px;
+      top: 60px;
+    }
+
+    /* Key Benefits Section */
+    .section-title h2 {
+      font-size: 60px;
+    }
+
+    .section-title p{
+      font-size: 35px;
+    }
+
+    .container .key-benefits-tables {
+      grid-template-columns: 1fr;
+      row-gap: 55px;
+    }
+
+    .key-benefits-tables .table {
+      padding: 45px;
+      box-shadow: 0px 15px 26px 8px rgb(206 206 206);
+    }
+
+    .key-benefits-tables .table h2 {
+      font-size: 34px;
+      margin: 40px 0px;
+    }
+
+    .key-benefits-tables .table h2 span, .right-big-wrapper span {
+      font-size: 27px;
+      padding: 8px 24px;
+    }
+
+    .key-benefits-tables .table p {
+      font-size: 32px;
+      margin-bottom: 45px;
+    }
+
+    .key-benefits-tables .table a {
+      font-size: 30px;
+    }
+
+    /* Softwere to people section */
+    .banner-wrapper {
+      height: 900px
+    }
+
+    .banner-wrapper .software-wrapper-left {
+      padding: 40px 0px 50px 0px;
+    }
+
+    .banner-wrapper .software-wrapper-left h1 {
+      font-size: 50px;
+      line-height: 65px;
+      margin: 0px 115px 40px;
+    }
+
+    /* Why Front Section */
+    .main-section {
+      margin-top: 350px;
+      padding: 0px 45px;
+    }
+
+    .section-title {
+      margin-bottom: 60px;
+    }
+
+    .options {
+      display: flex;
+      }
+      
+      .line {
+      border-top: none;
+     }
+    
+     .circles {
+      display: grid;
+      width: 100px;
+      gap: 10px;
+      }
+    
+    .circle {
+      padding: 43px;
+       width: 100px;
+    }
+    
+    .circle i {
+      font-size: 13px;
+     }
+    
+    .under-circles-words {
+      display: grid;
+      font-size: 33px;
+      margin: 53px 0px 53px 50px;
+    }
+    
+     .under-circles-words div {
+       margin: auto;
+       margin-left: 0;
+     }
+    .under-circles-words div:nth-child(2) {
+      margin-left: 0;
+    }
+
+    .banner-two {
+      width: 767px;
+    }
+
+    .banner-two-wrapper {
+      display: flex;
+      width: 767px;
+      justify-content: center;
+      padding: 0;
+    }
+
+    .banner-two button {
+      display: block;
+      left: 39%;
+      top: 19%;
+      width: 135px;
+      height: 135px;
+    }
+
+    .banner-two button i {
+      font-size: 40px;
+      left: 2px;
+    }
+
+    /* Christina Section */
+
+    .description {
+      margin-top: 200px;
+    }
+
+    .description img {
+      width: 210px;
+    }
+
+    .description h2 {
+      margin: 60px 30px;
+      font-size: 48px;
+    }
+
+    .description h3 {
+      font-size: 37px;
+    }
+
+    .description p {
+      font-size: 30px;
+    }
+  
+    .trusted h2 {
+      margin-top: 30px;
+    }
+
+    .trusted .brands ul {
+      display: grid;
+      justify-content: center;
+      gap: 30px;
+    }
+    
+    /* Main Section Section  */
+    .main-section {
+      margin-top: 100px;
+      padding: 0px;
+    }
+
+    .left-big-wrapper h2 {
+      font-size: 100px;
+    }
+
+    hr {
+      margin: 50px;
+      color: gray;
+    }
+    
+    /* Price Section */
+    .right-big-wrapper {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 40px 0px;
+      margin-top: 40px;
+    }
+
+    .right-small-wrapper img {
+      width: 110px;
+    }
+
+    .right-small-wrapper h3 {
+      font-size: 40;
+    }
+
+    .right-small-wrapper p {
+      font-size: 30px;
+    }
+
+    .left-big-wrapper {
+      height: 660px;
+    }
+
+    /* Hire Us Section */
+    .hire-left-wrapper {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .hire-header,
+    .hire-content {
+      justify-self: center;
+      text-align: center;
+      width: 100%;
+    }
+
+    .hire-us {
+      height: 2850px;
+    }
+
+    .hire-content {
+      justify-content: center;
+    }
+
+    .hire-content span h3 {
+      font-size: 35px;
+    }
+
+    .hire-content p {
+      font-size: 26px;
+    }
+
+    .hire-content .photos img {
+      border-radius: 100%;
+      width: 70px;
+      height: 70px;
+    }
+
+    .hire-content .photos img:last-child {
+      border-radius: 100%;
+      width: 110px;
+      height: 110px;
+    }
+
+    .hire-header p {
+      font-size: 38px;
+      margin: 25px 0px 35px 0px;
+    }
+
+    .hire-header h2 {
+      font-size: 60px;
+    }
+
+    .hire-header h5 {
+      width: 100%;
+      font-size: 37px;
+    }
+
+    .hire-left-wrapper {
+      padding: 10px 0px;
+    }
+
+    hr {
+      margin: 50px 0;
+    }
+
+    .hire-right-wrapper {
+      padding: 70px 0px;
+    }
+
+    .hire-right-wrapper h2 {
+      font-size: 36px;
+    }
+
+    /* Form Section */
+    .hire-form-header{
+      height: 1860px;
+    } 
+
+    .small-inputs ul {
+      grid-template-columns: 1fr;
+    }
+
+    .small-inputs input,
+    .small-inputs select,
+    .big-input textarea {
+      font-size: 31px;
+      padding: 30px 15px;
+      border-radius: 10px;
+    }
+
+    .checkbox-container {
+      font-size: 30px;
+      padding-left: 100px;
+    }
+
+    .checkmark {
+      height: 55px;
+      width: 55px;
+      margin: 10px 0;
+    }
+
+    .privacy-policy {
+      padding-left: 100px;
+    }
+
+    .privacy-policy .p-one {
+      font-size: 31px;
+    }
+
+    .privacy-policy .p-two {
+      display: none;
+    }
+
+    /* Footer Section */
+    .footer-top-wrapper {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 100px;
+    }
+
+    .footer-top-wrapper img {
+      width: 240px;
+    }
+
+    .footer-top-wrapper p,
+    .footer-top-wrapper a
+     {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    
+
+    .footer-top-left {
+      text-align: center;
+    }
+
+    .footer-top-right {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+
+    .footer-top-right h2 {
+      font-size: 47px;
+    }
+
+    .footer-top-right .company, .features, .documentation, .resorces {
+      font-size: 35px;
+      line-height: 2;
+      padding-left: 0;
+    }
+
+    .footer-bottom-wrapper {
+      margin-top: 1770px;
+    }
+
+    .footer-bottom-header .header-right {
+      padding-right: 0px;
+      display: grid;
+      justify-content: center;
+    }
+     
+
+    .footer-bottom-header .header-right ul {
+      
+    }
+    .footer-bottom-header .header-right ul li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60px;
+      height: 60px;
+    }
+
+    .footer-bottom-header .header-right ul li i {font-size: 30px;}
+
+    .footer-bottom-header .header-left {
+      font-size: 33px;
+      text-align: center;
+    }
+
+    .box {
+      text-align: center;
+    }
+
+    .box::before {
+      position: relative;
+      top: 8px;
+      right: -250px;
+      height: 100%;
+      font-size: 23px;
+      z-index: 100;
+    }
+
+    .box select {
+      position: relative;
+      right: 27px;
+      width: 320px;
+      height: 60px;
+      font-size: 30px;
+    }
+
+    .header-bottom-content {
+      padding: 300px 30px 0px 30px;
+    }
+
+    .header-bottom-content h3,
+    .header-bottom-content p {
+      padding: 0px 10px;
+      font-size: 30px;
+    }
+
+    .header-bottom-content p {
+     padding-bottom: 20px;
+    }
+
+    .footer-bottom-header {
+     display: grid;
+     justify-content: center;
+    }
+    
+    .footer-bottom-header .header-left ul {
+      font-size: 35px;
+    }
+
+    .footer-bottom-header .socials {
+      justify-content: center;
+      padding-top: 15px;
+      padding-bottom: 35px;
+    }
+
+  }
+
+  
+  

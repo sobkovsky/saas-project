@@ -21,32 +21,63 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   width: 1400px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin-left: auto;
   margin-right: auto;
 }
 
- button {
+button,
+.buy-button,
+.play-button {
   display: flex;
   align-items: center;
   border-radius: 70px;
-  font-size: 18px;
+  font-size: 23px;
   font-weight: 100;
   color: white;
   background-color: #1e73ff;
-  padding: 0px 35px;
+  padding: 0px 40px;
   border: 1px solid transparent;
-  margin-right: 5px;
-  height: 70px;
-  margin-bottom: 10px;
+  height: 68px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-button i {
-  font-size: 24px;
-  padding-right: 10px;
+.buy-button:hover
+ {
+  background: white;
+  border: 1px solid color #1e73ff;
+  box-shadow: 0px 0px 20px 1px #1e73ff;
+  color: #1e73ff;
+  scale: 1.2;
+} 
+
+.play-button:hover {
+  background: white;
+  box-shadow: 0px 0px 20px 1px #1e73ff;
+  border: 1px solid color #1e73ff;
+  color: #1e73ff;
+  scale: 1.2;
+}
+
+button:hover {
+  background: white;
+  box-shadow: 0px 0px 20px 1px #1e73ff;
+  border: 1px solid color #1e73ff;
+  color: #1e73ff;
+  scale: 1.2;
+}
+
+.play-button i {
+  font-size: 28px;
+  padding-right: 5px;
 }
 
 button span {
@@ -69,8 +100,10 @@ button span {
 .button {
   margin-top: 30;
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
-
+[aria-controls="navbarDropdown"] {
+  display: none;
+}
 
