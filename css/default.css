@@ -11,19 +11,13 @@ body {
   list-style: none;
 }
 
-::placeholder {
-  color: rgb(179, 178, 178);
-}
+::placeholder {color: rgb(179, 178, 178);}
 
 *,
 ::after,
-::before {
-  box-sizing: border-box;
-}
+::before {box-sizing: border-box;}
 
-a {
-  text-decoration: none;
-}
+a {text-decoration: none;}
 
 .container {
   width: 1400px;
@@ -89,7 +83,6 @@ button span {
   gap: 13px;
   display: flex;
   align-items: center;
-  
 }
 
 .container.header span {
