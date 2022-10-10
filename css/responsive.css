@@ -1,5 +1,11 @@
 /* Desktop */
 @media screen and (max-width: 1400px){
+  .navbar {width: 100%;}
+
+  .navbar.sticky {width: 100%;}
+
+  .navbar-wrapper {justify-content: unset;}
+
   .background-header {width: 1400px;}
 
   .hire-us-wrapper {min-width: 1400px;}
