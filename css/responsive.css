@@ -410,6 +410,10 @@
     padding: 60px;
   }
 
+  .privacy-policy {
+    justify-content: center;
+  }
+
   /* Footer section */
   .footer-top-wrapper {
     display: flex;
@@ -819,7 +823,7 @@
       margin: 10px 0;
     }
 
-    .privacy-policy {padding-left: 100px;}
+    .privacy-policy {padding-left: 65px;}
 
     .privacy-policy .p-one {font-size: 31px;}
 
