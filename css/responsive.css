@@ -1,5 +1,5 @@
 /* Desktop */
-@media screen and (max-width: 1400px){
+ @media screen and (max-width: 1400px){
   .navbar {width: 100%;}
 
   .navbar.sticky {width: 100%;}
@@ -8,7 +8,7 @@
 
   .background-header {width: 1400px;}
 
-  .hire-us-wrapper {min-width: 1400px;}
+  .hire-us-wrapper {min-width: 1023px;}
 
   .banner-two-wrapper {
     display: flex;
@@ -17,12 +17,12 @@
   }
   
   .banner-two {width: 1350px;}
-}
+} 
 
 /* iPad / Tablet view */
 @media screen and (max-width: 1023px) {
   .container {
-    width: 1023px;
+    width: 100%;
     padding: 0 30px;
   }
 
@@ -41,18 +41,17 @@
     font-weight: 400;
     line-height: 55px;
     margin-bottom: 10px;
-    padding: 0 300px;
     margin-right: 0;
+    padding: 0 170px;
   }
 
   .background-header {
-    width: 1023px;
+    width: 100%;
     left: 0;
     background: linear-gradient(104deg, transparent 15%, #f5f5f5 75%, rgba(184, 213, 222, 0.65) 25%);
   }
 
   .navbar {
-    width: 1023px;
     transition: ease-in-out 0.6s;
     height: 100px;
     padding: 0;
@@ -85,12 +84,11 @@
   }
 
   button:hover {
-    box-shadow: none;
-    color: gray;
-    scale: none;
-    background: transparent;
-    width: 30px;
-    height: 40px;
+    background: white;
+    box-shadow: 0px 0px 20px 1px #1e73ff;
+    border: 1px solid color #1e73ff;
+    color: #1e73ff;
+    scale: 1.2;
   }
 
   .buy-button {display: none;}
@@ -120,22 +118,27 @@
     height: 630px;
   }
 
-  .logo-icons img {width: 75px;}
+  .logo-icons img {width: 65px;}
+
+  .logo-icons .atlasian {
+    margin-right: 0;
+    margin-left: 0;
+  }
 
   .logo-icons .atlasian img, .logo-icons .asana img, .logo-icons .paypal img, .logo-icons .weave img, .logo-icons .calendar img {
-    width: 80px;
+    width: 72px;
   }
 
   .logo-icons .google, .logo-icons .google-A {
-    width: 77px;
-    height: 77px;
+    width: 68px;
+    height: 68px;
     padding: 0px;
   }
 
   .logo-icons .asana, .logo-icons .atlasian, .logo-icons .paypal, .logo-icons .weave, .logo-icons .calendar {
-    width: 103px;
-    height: 103px;
-    padding: 11px;
+    width: 83px;
+    height: 83px;
+    padding: 3px;
   }
   
   .logo-icons .first-row {margin-bottom: 0;}
@@ -164,7 +167,7 @@
     display: block;
     position: absolute;
     top: 350px;
-    right: 42%;
+    right: 38%;
     display: grid;
     width: 175px;
   }
@@ -262,15 +265,33 @@
     color: gray;
   }
 
-  .main-section {padding: 0px 60px;}
+  .main-section {
+    padding: 0px 60px;
+    margin-top: 150px;
+  }
 
   .circles {
     display: flex;
     justify-content: space-between;
-    margin: 45px 27px;
+    margin: 45px 0px;
+  }
+
+  .circle {
+    padding: 22px;
+  }
+
+  .circle i {
+    font-size: 8px;
+  }
+
+  .line {
+    margin-top: 25px;
   }
   
-  .under-circles-words {font-size: 18px;}
+  .under-circles-words {
+    font-size: 18px;
+    gap: 62px;
+    }
 
   .under-circles-words div:nth-child(2) {
     margin-left: 10px;
@@ -288,23 +309,22 @@
   }
 
   .banner-two button {
-    position: relative;
-    left: 46%;
-    top: 40%;
-    width: 90px;
-    height: 90px;
-    font-size: 24px;
+      position: relative;
+      left: 44%;
+      top: 32%;
+      width: 65px;
+      height: 65px;
   }
 
   .banner-two-wrapper {
     display: flex;
-    width: 1023px;
+    width: 100%;
     justify-content: center;
   }
 
   .banner-two button i {
-    font-size: 25px;
-    left: 6px;
+    font-size: 19px;
+    left: -3px;
   }
 
   /* Christina Section */
@@ -332,9 +352,11 @@
 
   .trusted h2 {margin-top: -200px;}
 
+  .trusted .brands img {width: 100px;}
+
   /* Pricing Section */
 
-  .main-section {margin-top: 150px;}
+  
 
   .pricing-features {
     display: block;
@@ -374,46 +396,79 @@
     display: block;
     background-color: #1f335b;
     height: 1330px;
+    width: 100%;
   }
 
   .hire-us-wrapper {
     background-color: white;
-    min-width: 1023px;
+    min-width: 100%;
   }
 
-  .hire-header {width: 480px;}
+  .hire-header {width: 370px;}
 
-  .hire-header h2 {font-size: 30;}
+  .hire-header h2 {font-size: 25px;}
 
   .hire-header p {
     margin: 40px 0px 30px 0px;
-    font-size: 20px;
+    font-size: 18px;
+  }
+
+  .hire-header h5, 
+  .hire-content span {
+    font-size: 16px;
+    padding-right: 100px;
+  }
+
+  .hire-right-wrapper h2 {font-size: 18px;}
+
+  .small-inputs input, .small-inputs select, .big-input textarea {
+    padding: 13px 15px;
+    row-gap: 25px;
+    column-gap: 25px;
   }
 
   .hire-content .photos {padding-top: 10px;}
 
   .hire-content span h3 {
-    font-size: 25px;
+    font-size: 18px;
     margin-top: 50px;
+  }
+
+  .hire-content p {
+    font-size: 14px;
+  }
+
+  .hire-content .photos {
+    gap: 30px;
+  }
+
+  .hire-content .photos img {
+    width: 45px;
+    height: 45px;
+    transition: 0.3s;
+  }
+
+  .hire-content .photos img:last-child {
+    width: 65px;
+    height: 65px;
   }
 
   .hire-left-wrapper {
     display: flex;
-    justify-content: space-between;
     padding-left: 0;
-    padding: 10px 30px;
+    gap: 70px;
+    padding: 10px 0px;
   }
 
   .hire-us-wrapper {
     height: auto;
     background-color: white;
-    min-width: 763px;
   }
 
   .hire-form-header {
     width: 100%;
     height: 950px;
-    padding: 60px;
+    padding: 30px 30px;
   }
 
   .privacy-policy {
@@ -441,27 +496,26 @@
   .header-bottom-content {padding: 0px 30px;}
 }
 
-  @media screen and (max-width: 767px){
-  .container {width: 767px;}
+@media screen and (max-width: 767px){
+  .container {width: 100%;}
 
   .container.nav {
     padding-right: 0px;
     padding: 0px 50px 25px 50px;
     display: flex;
-    width: 767px;
+    width: 100%;
   }
     
   .navbar {
-    width: 767px;
+    width: 100%;
     transition: ease-in-out 0.6s;
-    height: 200px;
+    height: 144px;
   }
   
   .navbar img {
-    width: 180px;
+    width: 160px;
     margin-right: 0;
     margin-right: 0;
-    width: 380px;
     padding: 30px 0;
   }
 
@@ -469,10 +523,10 @@
     width: 53px;
   }
 
-  button:hover {
+  /* button:hover {
     height: 100px;
     width: 55px;
-  }
+  } */
 
   [aria-expanded="true"] ~ .menu {
     width: 100%;
@@ -496,7 +550,7 @@
   }
 
   .background-header {
-    width: 767px;
+    width: 100%;
     transform: skewY(-18deg);
     background: linear-gradient(99deg, transparent 15%, #f5f5f5 73%, rgba(184, 213, 222, 0.65) 27%);
     height: 1100px;
@@ -504,20 +558,19 @@
 
   .header h1 {
     padding: 0;
-    padding: 0 30px;
-    font-size: 60;
-    line-height: 70px;
+    /* padding: 0 30px; */
+    font-size: 30px;
+    line-height: 46px;
     margin-right: 0;
   }
 
-  .header-title {padding-top: 230px;}
+  .header-title {padding-top: 130px;}
 
   .header p {
-    padding: 10px 20px 55px 20px;
-    font-size: 30px;
+    padding: 10px 0px 55px 0px;
+    font-size: 18;
     color: gray;
     margin: 10px;
-    line-height: 40px;
   }
 
   button {
@@ -528,19 +581,27 @@
   }
 
   button, .buy-button, .play-button {
-    font-size: 30px;
-    padding: 0px 51px;
-    height: 90px;
+    font-size: 18px;
+    padding: 0px 30px;
+    height: 60px;
   }
   
   .play-button i {
-    font-size: 35px;
-    padding-right: 10px;
+    font-size: 25px;
+  }
+
+  .play-button h5 {
+    position: relative;
+    top: 1px;
+    left: 5px;
+    font-weight: 400;
+    text-decoration: none;
+    width: 70px;
   }
   
   .header div:nth-child(2) a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 17px;
     gap: 40px;
   }
     
@@ -553,44 +614,30 @@
     margin-left: 0px;
   }
 
-  .logo-icons {padding: 0;}
-
-  .logo-icons img {width: 100px;}
-
-  .logo-icons .google, 
-  .logo-icons .google-A {
-    width: 125px;
-    height: 125px;
-    padding: 10px;
-  }
-    
-  .logo-icons .atlasian img, 
-  .logo-icons .asana img, 
-  .logo-icons .paypal img, 
-  .logo-icons .weave img, 
-  .logo-icons .calendar img {width: 120px;} 
-
-  .logo-icons .asana, .logo-icons .atlasian, .logo-icons .paypal, .logo-icons .weave, .logo-icons .calendar {
-    width: 160px;
-    height: 160px;
-    padding: 18px;
+  .logo-icons {
+    padding: 0;
+    width: 100%;
   }
 
-  .logo-icons .calendar {
-    margin-top: -40px;
-    margin-right: 30px;
+  .logo-icons .third-row {
+    justify-content: space-around;
   }
 
   [aria-controls="navbarDropdown"] {
-    font-size: 60px;
-    right: 95px;
-    top: 60px;
+    font-size: 36px;
+    right: 10px;
+    top: 40px;
+    width: 54px;
+    height: 70px;
   }
 
   /* Key Benefits Section */
-  .section-title h2 {font-size: 60px;}
+  .section-title h2 {font-size: 30px;}
 
-  .section-title p {font-size: 35px;}
+  .section-title p {
+    font-size: 15px;
+    margin-top: -20px;
+  }
 
   .container .key-benefits-tables {
     grid-template-columns: 1fr;
@@ -598,67 +645,92 @@
   }
 
   .key-benefits-tables .table {
-    padding: 45px;
+    padding: 20px;
     box-shadow: 0px 15px 26px 8px rgb(206 206 206);
   }
 
+  .key-benefits-tables .table img {
+    width: 40px;
+  }
+
   .key-benefits-tables .table h2 {
-    font-size: 34px;
-    margin: 40px 0px;
+    font-size: 15px;
+    margin: 20px 0px;
   }
     
   .key-benefits-tables .table h2 span, .right-big-wrapper span {
-    font-size: 27px;
-    padding: 8px 24px;
+    font-size: 15px;
+    padding: 4px 12px;
   }
 
   .key-benefits-tables .table p {
-    margin-bottom: 45px;
-    font-size: 32px;
+    margin-bottom: 25px;
+    font-size: 13px;
   }
 
-  .key-benefits-tables .table a {font-size: 30px;}
+  .key-benefits-tables .table a {font-size: 15px;}
 
     /* Softwere to people section */
-  .banner-wrapper {height: 900px}
+  .banner-wrapper {
+    height: none;
+    margin-top: 50px;
+  }
 
-  .banner-wrapper .software-wrapper-left {padding: 40px 0px 50px 0px;}
+  .banner-wrapper .software-wrapper-left {padding: 0px 0px 50px 0px;}
 
-    .banner-wrapper .software-wrapper-left h1 {
-      font-size: 50px;
-      line-height: 65px;
-      margin: 0px 115px 40px;
-    }
+  .banner-wrapper .software-wrapper-left h1 {
+    font-size: 25px;
+    line-height: 30px;
+    margin: 0px 30px 40px;
+    padding-top: 30px;
+  }
+
+  .banner-wrapper .software-wrapper-right .img {
+    height: 225px;
+  }
 
     /* Why Front Section */
     .main-section {
-      margin-top: 350px;
-      padding: 0px 45px;
+      margin-top: 50px;
+      padding: 0px 0px;
     }
 
     .section-title {margin-bottom: 60px;}
 
-    .options {display: flex;}
+    .options {
+      display: flex;
+      justify-content: center;
+    }
       
     .line {border-top: none;}
+
     
     .circles {
       display: grid;
-      width: 100px;
-      gap: 10px;
+      padding: 19px;
+      width: 50px;
+      height: 51px;
+      gap: 5px;
     }
     
     .circle {
-      padding: 43px;
-      width: 100px;
+      padding: 0px;
+      width: 50px;
+      height: 50px;
     }
     
-    .circle i {font-size: 13px;}
+    .circle i {
+      font-size: 7px;
+      position: relative;
+      top: 23px;
+      right: -21px;
+    }
     
     .under-circles-words {
       display: grid;
-      font-size: 33px;
-      margin: 53px 0px 53px 50px;
+      font-size: 16px;
+      gap: 62px;
+      margin: 75px 0px 53px 50px;
     }
     
     .under-circles-words div {
@@ -667,29 +739,52 @@
     }
     .under-circles-words div:nth-child(2) {margin-left: 0;}
 
-    .banner-two {width: 767px;}
+    .banner-two {
+      width: 100%;
+      height: 160px;
+    }
 
     .banner-two-wrapper {
       display: flex;
-      width: 767px;
+      width: 100%;
       justify-content: center;
       padding: 0;
     }
 
     .banner-two button {
       display: block;
-      left: 39%;
-      top: 19%;
-      width: 135px;
-      height: 135px;
+      left: 43%;
+      top: 30%;
     }
 
     .banner-two button i {
-      font-size: 40px;
-      left: 2px;
+      font-size: 20px;
+      left: -5px;
+      top: 0px;
     }
 
     /* Christina Section */
+    .dotts-picture {
+      height: 500px;
+      width: 100%;
+      text-align: center;
+    } 
+
+    .dotts img {
+      position: relative;
+      z-index: -1;
+      right: 72px;
+      width: 163px;
+    }
+
+    .profile-picture img {
+      width: 250px;
+     margin-left: 0px;
+      position: relative;
+      top: 310px;
+      left: 14px;
+    }
+
     .description {
       margin-top: 200px;
     }
@@ -722,11 +817,6 @@
     }
     
     /* Main Section Section  */
-    .main-section {
-      margin-top: 100px;
-      padding: 0px;
-    }
-
     .left-big-wrapper h2 {
       font-size: 100px;
     }
@@ -765,7 +855,10 @@
       width: 100%;
     }
 
-    .hire-us {height: 2850px;}
+    .hire-us {
+      width: auto;
+      height: 2850px;
+    }
 
     .hire-content {justify-content: center;}
 
@@ -806,7 +899,10 @@
     .hire-right-wrapper h2 {font-size: 36px;}
 
     /* Form Section */
-    .hire-form-header {height: 1860px;} 
+    .hire-form-header {
+      /* width: 100%; */
+      height: 1860px;
+    } 
 
     .small-inputs ul {grid-template-columns: 1fr;}
 
@@ -934,3 +1030,5 @@
 
   
   
+
+   
