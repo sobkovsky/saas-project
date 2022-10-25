@@ -93,6 +93,10 @@
   display: flex;
 }
 
+.play-button {
+  width: 210px;
+}
+
 .play-button h5 {
   position: relative;
   top: 1px;

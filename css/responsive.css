@@ -87,6 +87,10 @@
 
   .buy-button {display: none;}
 
+  .play-button {
+    width: none;
+  }
+
   button {
     display: flex;
     align-items: center;
@@ -579,6 +583,10 @@
     font-size: 18px;
     padding: 0px 30px;
     height: 60px;
+  }
+
+  .play-button {
+    width: auto;
   }
   
   .play-button i {
