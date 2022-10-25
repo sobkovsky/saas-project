@@ -455,9 +455,6 @@
   cursor: pointer;
 }
 
-
-
-
 .banner-two-wrapper {
   display: flex;
   justify-content: center;
@@ -494,8 +491,9 @@
 
 .banner-two button i {
   position: relative;
-  top: 2px;
-  font-size: 31px;
+  font-size: 30px;
+  left: -1px;
+  top: 1px;
   color: black;
 } 
 
@@ -760,7 +758,7 @@
 
 .hire-form-header {
   background-color: white;
-  border-radius: 20px;
+  border-radius: 10px;
   height: 95%;
   padding: 40px;
   width: 500px;
