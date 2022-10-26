@@ -1,14 +1,14 @@
 .navbar-wrapper {
   display: flex;
-  transition: ease-in-out 0.6s;
   justify-content: center;
+  transition: ease-in-out 0.6s;
   background-color: white;
   box-shadow: 0px 0px 20px rgb(48 63 100 / 20%);
 }
 
 .navbar {
-  max-width: 1400px;
   justify-content: space-between;
+  width: 1400px;
   position: fixed;
   z-index: 500;
   transition: 0.6s;
@@ -21,7 +21,9 @@
   padding: 0;
 }
 
-.menu {display: flex;}
+.menu {
+  display: flex;
+} 
 
 .menu ul li a:active,
 .menu ul li a:visited  {color: grey;}
@@ -91,6 +93,10 @@
 .header-title {
   padding-top: 150px;
   display: flex;
+}
+
+.play-button {
+  width: 210px;
 }
 
 .play-button h5 {
@@ -263,12 +269,11 @@
  .header div:nth-child(2) a:hover {scale: 1.1;}
 
 .header h1 {
-  font-size: 50px;
+  font-size: 56px;
   font-weight: 400;
   line-height: 65px;
   margin-bottom: 10px;
   padding: 0;
-  margin-right: 420px;
 }
   
 .header p {
@@ -442,20 +447,20 @@
 
 .under-circles-words {
   display: flex;
-  justify-content: space-between;
-  font-size: 30px;
+  text-align: center;
+  font-size: 17px;
   list-style: none;
-  gap: 80px;
+  margin-left: -73px;
+  width: 113%;
 } 
+
+.under-circles-words div {
+  width: 25%;
+}
 
 .under-circles-words div:hover {
   color: #1e73ff;
   cursor: pointer;
-}
-
-.under-circles-words div:nth-child(2) {
-  margin-left: 35px;
-  margin-right: -20px;
 }
 
 .banner-two-wrapper {
@@ -494,47 +499,48 @@
 
 .banner-two button i {
   position: relative;
-  top: 2px;
-  font-size: 31px;
+  font-size: 30px;
+  left: -1px;
+  top: 1px;
   color: black;
 } 
 
 .christina-section {
   width: 100%;
-  height: 750px;
+  height: 630px;
   display: flex;
 }
 
 .dotts img {
-  width: 271px;
+  width: 210px;
   margin-bottom: 100px;
   margin-top: 133px;
 }
 
 .profile-picture img {
-  width: 500px;
-  margin-top: -736px;
-  margin-left: 71px;
+  width: 400px;
+  margin-top: -604px;
+  margin-left: 58px;
 }
 
-.description {padding: 110px 0px 0px 160px;}
+.description {padding: 110px 0px 0px 60px;}
 
 .description img {width: 130px;}
 
 .description h2 {
-  font-size: 32px;
+  font-size: 21px;
   font-weight: 400;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .description h3 {
-  font-size: 28px;
+  font-size: 20px;
   margin-bottom: -25px;
   letter-spacing: 0.2px;
 }
 
 .description p {
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 500;
   margin-top: 20px;
   color: #838383;
@@ -578,11 +584,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-left: 70px;
-  gap: 70px;
+  gap: 48px;
 }
 
 .left-big-wrapper {
-  height: 703px;
+  height: 680px;
   width: 1200px;
   padding: 50px 60px 62px;
   border: 1px solid transparent;
@@ -668,7 +674,7 @@
 
 .hire-us-wrapper {
   justify-content: center;
-  min-width: 1400px;
+  min-width: 1023px;
   background-color: #1f335b;
   width: 100%;
   height: 1050px;
@@ -676,11 +682,11 @@
 
 .hire-left-wrapper {
   margin-right: auto;
-  padding: 160px 30px;
-  padding-left: 80px;
+  padding: 160px 25px;
+  padding-left: 45px;
 }
 
-.hire-header {width: 364px;}
+.hire-header {width: 240px;}
 
 .hire-header h2 {
   font-size: 40px;
@@ -694,6 +700,7 @@
   font-size: 25px;
   color: rgba(255, 255, 255, 0.3);
   margin: 40px 100px 30px 0px;
+  width: 230px;
 }
 
 .hire-header h5,
@@ -747,7 +754,9 @@
   scale: 1.5;
 }
 
-.hire-right-wrapper {padding: 35px 0px;}
+.hire-right-wrapper {
+  padding: 35px 0px;
+}
 
 .hire-right-wrapper h2 {
   font-weight: 600;
@@ -759,7 +768,7 @@
 
 .hire-form-header {
   background-color: white;
-  border-radius: 20px;
+  border-radius: 10px;
   height: 95%;
   padding: 40px;
   width: 650px;
@@ -788,9 +797,11 @@
   width: 100%;
   font-size: 20px;
   border: 2px solid #ababab2b;
-  padding: 17px 15px;
   border-radius: 7px;
   color: #a7a1a1;
+  padding: 13px 15px;
+  row-gap: 25px;
+  column-gap: 25px;
 }
 
 .small-inputs select {color: #5a5858;}
