@@ -21,7 +21,9 @@
   padding: 0;
 }
 
-.menu {display: none;} 
+.menu {
+  display: flex;
+} 
 
 .menu ul li a:active,
 .menu ul li a:visited  {color: grey;}
@@ -448,6 +450,8 @@
   text-align: center;
   font-size: 17px;
   list-style: none;
+  margin-left: -73px;
+  width: 113%;
 } 
 
 .under-circles-words div {
@@ -503,40 +507,40 @@
 
 .christina-section {
   width: 100%;
-  height: 750px;
+  height: 630px;
   display: flex;
 }
 
 .dotts img {
-  width: 271px;
+  width: 210px;
   margin-bottom: 100px;
   margin-top: 133px;
 }
 
 .profile-picture img {
-  width: 500px;
-  margin-top: -736px;
-  margin-left: 71px;
+  width: 400px;
+  margin-top: -604px;
+  margin-left: 58px;
 }
 
-.description {padding: 110px 0px 0px 160px;}
+.description {padding: 110px 0px 0px 60px;}
 
 .description img {width: 130px;}
 
 .description h2 {
-  font-size: 32px;
+  font-size: 21px;
   font-weight: 400;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .description h3 {
-  font-size: 28px;
+  font-size: 20px;
   margin-bottom: -25px;
   letter-spacing: 0.2px;
 }
 
 .description p {
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 500;
   margin-top: 20px;
   color: #838383;
@@ -580,11 +584,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-left: 70px;
-  gap: 70px;
+  gap: 48px;
 }
 
 .left-big-wrapper {
-  height: 703px;
+  height: 680px;
   width: 1200px;
   padding: 50px 60px 62px;
   border: 1px solid transparent;
@@ -750,7 +754,9 @@
   scale: 1.5;
 }
 
-.hire-right-wrapper {padding: 35px 0px;}
+.hire-right-wrapper {
+  padding: 35px 0px;
+}
 
 .hire-right-wrapper h2 {
   font-weight: 600;
@@ -765,7 +771,7 @@
   border-radius: 10px;
   height: 95%;
   padding: 40px;
-  width: 500px;
+  width: 650px;
   padding-bottom: 90px;
 }
 
